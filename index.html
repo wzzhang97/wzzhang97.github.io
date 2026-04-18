@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wangzheng Zhang</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: #ffffff;
-      color: #111111;
-      line-height: 1.7;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wangzheng Zhang</title>
 
-    .container {
-      max-width: 760px;
-      margin: 80px auto;
-      padding: 0 24px;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  background: #fff;
+  color: #111;
+}
 
-    h1 {
-      font-size: 2.4rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
+.container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
 
-    .subtitle {
-      font-size: 1.05rem;
-      color: #555;
-      margin-bottom: 36px;
-    }
+.header {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 
-    h2 {
-      font-size: 1.2rem;
-      margin-top: 40px;
-      margin-bottom: 12px;
-      font-weight: 600;
-    }
+.photo {
+  width: 120px;
+  height: 120px;
+  background: #ddd;
+  border-radius: 50%;
+}
 
-    p {
-      margin: 0 0 14px 0;
-    }
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
 
-    ul {
-      padding-left: 20px;
-      margin-top: 8px;
-    }
+.subtitle {
+  color: #666;
+  margin-top: 5px;
+}
 
-    li {
-      margin-bottom: 8px;
-    }
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+  color: #111;
+}
 
-    a {
-      color: #111;
-      text-decoration: none;
-      border-bottom: 1px solid #bbb;
-    }
+.links a:hover {
+  border-color: #111;
+}
 
-    a:hover {
-      border-bottom-color: #111;
-    }
+.section {
+  margin-top: 50px;
+}
 
-    .links a {
-      margin-right: 18px;
-    }
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
-    .footer {
-      margin-top: 56px;
-      color: #777;
-      font-size: 0.95rem;
-    }
+ul {
+  padding-left: 20px;
+}
 
-    hr {
-      border: none;
-      border-top: 1px solid #e5e5e5;
-      margin: 36px 0;
-    }
-  </style>
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+</style>
 </head>
+
 <body>
-  <div class="container">
+
+<div class="container">
+
+<div class="header">
+  <div class="photo"></div>
+
+  <div>
     <h1>Wangzheng Zhang</h1>
-    <p class="subtitle">
-      Postdoctoral Researcher in Cosmology
-    </p>
+    <div class="subtitle">Postdoctoral Researcher in Cosmology</div>
 
     <p>
       I work on neutrino cosmology, large-scale structure, and numerical simulations.
@@ -95,37 +95,35 @@
       <a href="#">Google Scholar</a>
       <a href="mailto:your-email@example.com">Email</a>
     </div>
-
-    <hr>
-
-    <h2>About</h2>
-    <p>
-      I am interested in neutrino cosmology, pairwise velocity statistics,
-      large-scale structure, and simulation-based approaches in cosmology.
-    </p>
-
-    <h2>Research</h2>
-    <ul>
-      <li>Neutrino effects on cosmology</li>
-      <li>Galaxy pairwise velocity and cosmological constraints</li>
-      <li>N-body simulations and numerical methods</li>
-    </ul>
-
-    <h2>Projects</h2>
-    <ul>
-      <li>Pairwise velocity constraints on neutrino properties</li>
-      <li>RAMSES code development</li>
-      <li>HOD and simulation-based inference</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Email: <a href="mailto:your-email@example.com">your-email@example.com</a>
-    </p>
-
-    <p class="footer">
-      © 2026 Wangzheng Zhang
-    </p>
   </div>
+</div>
+
+<hr>
+
+<div class="section">
+<h2>Research</h2>
+<ul>
+  <li>Neutrino cosmology</li>
+  <li>Galaxy pairwise velocity</li>
+  <li>Large-scale structure</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+<ul>
+  <li>Pairwise velocity constraints on neutrino properties</li>
+  <li>RAMSES development</li>
+  <li>HOD + SBI pipeline</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+</div>
+
+</div>
+
 </body>
 </html>
